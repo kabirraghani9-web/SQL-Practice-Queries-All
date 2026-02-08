@@ -1,4 +1,4 @@
--- JOINS
+-- JOINS (Basic)
 
 
 /* Q1 - Find all orders along with the customer name.*/
@@ -64,3 +64,4 @@ INNER JOIN Sales.Products p
 ON o.ProductID = p.ProductID
 INNER JOIN Sales.Customers c
 ON o.CustomerID = c.CustomerID
+
